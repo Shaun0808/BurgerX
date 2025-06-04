@@ -36,5 +36,3 @@ yarn-error.log*
 # Mac/Linux trash
 .trash
 
-# Optional: ignore generated report files
-reportWebVitals.js
