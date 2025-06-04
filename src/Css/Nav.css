@@ -1,0 +1,22 @@
+
+.nav-link {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+    color: #000; /* Change color as needed */
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: #007bff; /* Color of the underline */
+    transform: scaleX(0); /* Start with no width */
+    transition: transform 0.5s ease; /* Animation effect */
+  }
+  
+  .nav-link:hover::after {
+    transform: scaleX(1);
+  }

@@ -1,0 +1,25 @@
+
+  .sticker-background {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/homebg2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+  }
+
+  .content {
+    position: relative;
+    z-index: 1; /* Ensure content is above stickers */
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border-radius: 10px;
+  }
+
+
